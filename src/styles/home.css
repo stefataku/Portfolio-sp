@@ -62,12 +62,3 @@ ul a:hover {
     margin-top: 15px;
 }
 
-.testo{
-    font-family:'Helvetica',sans-serif;
-    color: white;
-
-}
-
-.testo > p > span{
-    font-family: 'Helvetica-Bold';
-}
