@@ -1,0 +1,73 @@
+@import './font.css';
+
+body{
+    margin: 0px;
+    background-color: #181818;
+}
+
+a{
+    color: white;
+}
+
+.header{
+       width: 1224px;
+       background-color: #212121; 
+       position:relative;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       height: 76px;
+       margin: auto;
+      
+}
+
+.header ul {
+    float: right;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 24px;
+    font-family: 'Quicksand-Regular', sans-serif;
+
+
+}
+
+.header ul a {
+    display: flex;
+    text-decoration: none;
+    color: rgb(181, 181, 181);
+    flex-direction: row;
+
+}
+
+ul a:hover {
+     color: white;    
+}
+
+.logo {
+    text-decoration: none;
+    font-family: 'Quicksand-Light', sans-serif;
+    font-size: 40px;
+    margin: 20px;
+}
+ .header li{
+    float: left;
+    margin: 23px;
+    
+ }
+
+.menu-btn {
+
+    margin-left: 500px;
+    margin-top: 15px;
+}
+
+.testo{
+    font-family:'Helvetica',sans-serif;
+    color: white;
+
+}
+
+.testo > p > span{
+    font-family: 'Helvetica-Bold';
+}
