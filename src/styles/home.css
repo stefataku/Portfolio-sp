@@ -66,6 +66,7 @@ ul a:hover {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 h1 {
@@ -83,3 +84,26 @@ h1 {
 margin: 104px 0 0 81px;
 }
 
+.herotext{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.professione {
+    font-family: 'Helvetica';
+    color: white;
+    font-size: 24px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.ellipse {
+    width: 56%;
+}
+
+.ellipse-container {
+    display: flex;
+    justify-content: flex-end;
+
+}
