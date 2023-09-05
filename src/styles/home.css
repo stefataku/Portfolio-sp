@@ -3,6 +3,7 @@
 body{
     margin: 0px;
     background-color: #121212;
+    
 }
 
 a{
@@ -71,7 +72,7 @@ ul a:hover {
 }
 
 h1 {
-    font-family: 'Quicksand-Regular';
+    font-family: 'Quicksand-Light', sans-serif;
     font-size: 86px;
     color: white;
     font-weight: 400;
@@ -91,13 +92,7 @@ margin: 104px 0 0 81px;
 }
 
 
-.professione {
-    font-family: 'Helvetica';
-    color: white;
-    font-size: 24px;
-    display: flex;
-    justify-content: flex-end;
-}
+
 
 .ellipse {
     width: 56%;
@@ -138,4 +133,22 @@ margin: 104px 0 0 81px;
     text-decoration: none
 }
 
+.containertext {  
+    margin: 105px 0 0 8px;
+    width:510px;
+    height: 293px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills {
+    color: white;
+    font-family: 'Helvetica';
+    font-size: 24px;
+}   
+
+.grafico {
+    margin-left: 0px;
     
+
+}
