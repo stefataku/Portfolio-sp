@@ -106,7 +106,7 @@ margin: 104px 0 0 81px;
 
 .buttontext {
     margin-left: 80px;
-    width: 413.31px;
+    width: 413px;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
@@ -135,7 +135,7 @@ margin: 104px 0 0 81px;
 
 .containertext {  
     display: flex;
-    margin: 132px 0 132px 0;
+    margin: 108px 0 132px 0;
 }
 
 .skills {
