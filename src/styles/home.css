@@ -53,6 +53,7 @@ ul a:hover {
  .header li{
     float: left;
     margin: 23px;
+    z-index: 5;
     
  }
 
@@ -107,3 +108,34 @@ margin: 104px 0 0 81px;
     justify-content: flex-end;
 
 }
+
+.bottontext {
+    margin-left: 80px;
+    width: 413.31px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.bottontext1 {
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Quicksand-Regular';
+    font-size: 24px;
+    align-items: flex-end;
+    text-decoration: none
+    
+}
+
+.bottontext2 {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Quicksand-Regular';
+    font-size: 24px;
+    align-items: flex-end;
+    text-decoration: none
+}
+
+    
