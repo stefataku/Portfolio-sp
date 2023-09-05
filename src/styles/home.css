@@ -2,7 +2,7 @@
 
 body{
     margin: 0px;
-    background-color: #181818;
+    background-color: #121212;
 }
 
 a{
@@ -10,14 +10,14 @@ a{
 }
 
 .header{
-       width: 1224px;
-       background-color: #212121; 
+      
+       background-color: #000; 
        position:relative;
        display: flex;
        justify-content: space-between;
        align-items: center;
        height: 76px;
-       margin: auto;
+       margin: 0 105px 0 105px;
       
 }
 
@@ -56,9 +56,30 @@ ul a:hover {
     
  }
 
-.menu-btn {
 
-    margin-left: 500px;
-    margin-top: 15px;
+
+.container{
+    margin:0px 105px 0px 105px;
+}
+
+.hero{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+h1 {
+    font-family: 'Quicksand-Regular';
+    font-size: 86px;
+    color: white;
+    font-weight: 400;
+}
+
+.foto {
+    margin: 36px 81px 0 190px;
+}
+
+.titolo {
+margin: 104px 0 0 81px;
 }
 
