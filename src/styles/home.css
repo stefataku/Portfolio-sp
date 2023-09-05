@@ -104,7 +104,7 @@ margin: 104px 0 0 81px;
 
 }
 
-.bottontext {
+.buttontext {
     margin-left: 80px;
     width: 413.31px;
     display: flex;
@@ -113,7 +113,7 @@ margin: 104px 0 0 81px;
     align-items: flex-end;
 }
 
-.bottontext1 {
+.buttontext1 {
     height: 150px;
     display: flex;
     justify-content: space-between;
@@ -124,7 +124,7 @@ margin: 104px 0 0 81px;
     
 }
 
-.bottontext2 {
+.buttontext2 {
     display: flex;
     justify-content: space-between;
     font-family: 'Quicksand-Regular';
@@ -134,21 +134,27 @@ margin: 104px 0 0 81px;
 }
 
 .containertext {  
-    margin: 105px 0 0 8px;
-    width:510px;
-    height: 293px;
     display: flex;
-    justify-content: space-between;
+    margin: 132px 0 132px 0;
 }
 
 .skills {
-    color: white;
-    font-family: 'Helvetica';
-    font-size: 24px;
+    margin: 18px;
+    width: 510px;
+    color: #FFF;
+font-family: 'Helvetica';
+font-size: 26px;
+font-style: normal;
+font-weight: 400;
+line-height: 39px; /* 150% */
 }   
 
-.grafico {
-    margin-left: 0px;
-    
 
+.cv{
+    color: #FFF;
+    font-family: 'Quicksand-Regular';;
+font-size: 28px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
 }
