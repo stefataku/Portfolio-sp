@@ -83,16 +83,14 @@ h1 {
 }
 
 .titolo {
-margin: 104px 0 0 81px;
+margin: 104px 0 0 52px;
 }
 
 .herotext{
     display: flex;
     flex-direction: column;
+    width: 470px;
 }
-
-
-
 
 .ellipse {
     width: 56%;
@@ -105,21 +103,15 @@ margin: 104px 0 0 81px;
 }
 
 .buttontext {
-    margin-left: 80px;
-    width: 413px;
     display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    align-items: flex-end;
+    flex-direction: column;
+    align-items: center;
 }
 
-.buttontext1 {
-    height: 150px;
-    display: flex;
-    justify-content: space-between;
+.link-skill-soft {
+   
     font-family: 'Quicksand-Regular';
     font-size: 24px;
-    align-items: flex-end;
     text-decoration: none
     
 }
@@ -157,4 +149,29 @@ font-size: 28px;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
+}
+
+.arrow-down {
+    width: 40px;
+    height: 20px;
+    padding-top: 8px;
+}
+
+.link-arrows {
+    display: flex;
+    justify-content: space-around
+}
+
+.header-herotext {
+    height: 100%;
+}
+
+.qrcode {
+    width: 183px;
+    height: 183px;
+}
+
+.curriculum {
+display: flex;
+
 }
