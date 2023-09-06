@@ -128,7 +128,8 @@ h1 {
 .containertext {  
     display: flex;
     margin: 108px 0 132px 0;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .skills {
@@ -201,14 +202,13 @@ line-height: 39px; /* 150% */
 }
 
 .elem {
-    display: flex;
+    margin:auto
     
 }
 
 .curriculum {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
+    align-items: flex-end;
     
     }
