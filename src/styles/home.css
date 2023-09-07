@@ -51,7 +51,7 @@ ul a:hover {
     font-size: 40px;
     margin: 20px;
 }
- .header li{
+ .header .item {
     float: left;
     margin: 23px;
     z-index: 5;
@@ -202,7 +202,9 @@ line-height: 39px; /* 150% */
 }
 
 .elem {
-    margin:auto
+    margin:auto;
+    display: flex;
+    justify-content: center;
     
 }
 
@@ -245,4 +247,10 @@ h2 {
     font-size: 54px;
     font-family:'Quicksand-Light', sans-serif ;
     font-weight: 300;
+    margin-left: 30px;
+}
+
+.hard_skills {
+    display: flex;
+    justify-content: space-evenly;
 }
