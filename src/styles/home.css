@@ -140,7 +140,7 @@ font-family: 'Helvetica';
 font-size: 20px;
 font-style: normal;
 font-weight: 400;
-line-height: 39px; /* 150% */
+line-height: 39px; 
 }   
 
 
@@ -267,6 +267,16 @@ h2 {
     margin-bottom: 30px;
 }
 
-.lista {
-    list-style-type:"\2713";
+
+
+.list-skills > li::marker {
+    content: "\2713";
+    color: #C37935;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+li span {
+    position: relative;
+    left: 10px;
 }
