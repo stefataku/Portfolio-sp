@@ -2,12 +2,13 @@
 
 body{
     margin: 0px;
-    background-color: #121212;
-    
-}
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.804);
+    background-image:url('../../assets/images/sfondo.webp');
+    background-size: cover;
+}  
 
 a{
-    color: white;
+    color: #EDEDED;
 }
 
 .header{
@@ -42,7 +43,7 @@ a{
 }
 
 ul a:hover {
-     color: white;    
+     color: #EDEDED;    
 }
 
 .logo {
@@ -69,18 +70,17 @@ ul a:hover {
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
+    margin-top: 30px;
 }
 
 h1 {
     font-family: 'Quicksand-Light', sans-serif;
     font-size: 86px;
-    color: white;
+    color:#EDEDED;
     font-weight: 400;
 }
 
-.foto {
-    margin: 36px 81px 0 190px;
-}
+
 
 .titolo {
      margin: 104px 0 0 52px;
@@ -135,7 +135,7 @@ h1 {
 .skills {
     margin: 18px;
     width: 510px;
-    color: #FFF;
+    color: #EDEDED;
 font-family: 'Helvetica';
 font-size: 20px;
 font-style: normal;
@@ -145,7 +145,7 @@ line-height: 39px; /* 150% */
 
 
 .cv {
-    color: #FFF;
+    color: #ededed;
     font-family: 'Quicksand-Regular';;
     font-size: 28px;
 }
@@ -233,7 +233,7 @@ line-height: 39px; /* 150% */
 .section-competence {
     display: flex;
     flex-direction: row;
-    background-color: rgb(255, 255, 255);
+    background-color: #EDEDED;
     width: auto;
     height: 305px;
     align-items: center;
@@ -243,7 +243,7 @@ line-height: 39px; /* 150% */
 }
 
 h2 {
-    color: white;
+    color: #EDEDED;
     font-size: 54px;
     font-family:'Quicksand-Light', sans-serif ;
     font-weight: 300;
@@ -253,4 +253,20 @@ h2 {
 .hard_skills {
     display: flex;
     justify-content: space-evenly;
+}
+
+.formazione {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+
+}
+
+.title {
+    margin-left: 90px;
+    margin-bottom: 30px;
+}
+
+.lista {
+    list-style-type:"\2713";
 }
