@@ -1,66 +1,11 @@
 @import './font.css';
-
+@import '../animations/animation.css';
 body{
     margin: 0px;
     box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.243);
     background-image:url('../../assets/images/background.webp');
     background-size:cover; 
-}  
-
-a {
-    color: #101010;
 }
-
-.header{
-      
-       background-color: #000; 
-       position:relative;
-       display: flex;
-       justify-content: space-between;
-       align-items: center;
-       height: 76px;
-       margin: 0 105px 0 105px;
-      
-}
-
-.header ul {
-    float: right;
-    padding: 0px;
-    list-style: none;
-    font-size: 24px;
-    font-family: 'Quicksand-Regular', sans-serif;
-
-
-}
-
-.header ul a {
-    display: flex;
-    text-decoration: none;
-    color: #EDEDED;
-    flex-direction: row;
-
-}
-
-ul a:hover {
-     color: #EDEDED;    
-}
-
-.logo {
-    text-decoration: none;
-    color: #EDEDED;
-    font-family: 'Quicksand-Light', sans-serif;
-    font-size: 40px;
-    margin-left: 40px;
-}
-
-.menu {
-    margin-right: 28px;
-}
-
- .header .item {
-    float: left;
-    margin: 12px;    
- }
 
 
 .container{
@@ -146,9 +91,10 @@ line-height: 39px;
 }
 
 .arrow-down {
-    width: 40px;
     height: 20px;
     padding-top: 8px;
+    cursor: pointer;
+    animation: jumpInfinite 1.5s infinite;
 }
 
 .link-arrows {
@@ -166,8 +112,6 @@ line-height: 39px;
     height: 183px;
     margin-top: 40px;
 }
-
-
 
 .testo {
     display: flex;
@@ -200,8 +144,6 @@ line-height: 39px;
     align-items: flex-end;
     
 }
-
-
 
 .h4 {
     color: #000000;
@@ -245,7 +187,6 @@ line-height: 39px;
     margin-left: 90px;
     margin-bottom: 30px;
 }
-
 
 
 .list-skills > li::marker {

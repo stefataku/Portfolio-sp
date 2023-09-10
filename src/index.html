@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/home.css">
     <link rel="stylesheet" href="./styles/carousel.css">
+    <link rel="stylesheet" href="./styles/navbar.css">
+    <link rel="stylesheet" href="./styles/footer.css">
     <link rel="stylesheet" href="./styles/main.css">
     <script src="./js/carousel.js"></script>
 
@@ -15,15 +17,17 @@
 
 <body>
     <header class="header">
-        <a href="/" class="logo">Stefania Pirrone</a>
+        <a href="./index.html" class="logo">Stefania Pirrone</a>
         <label for="menu-btn" class="menu-icon">
             <span class="nav-icon"></span>
         </label>
-        <ul class="menu">
-            <li class="item"><a href="home">Home</a></li>
-            <li class="item"><a href="progetti">Progetti</a></li>
-            <li class="item"><a href="contatti">Contatti</a></li>
-        </ul>
+        <nav class="menu">
+            <ul>
+                <li class="item"><a href="home">Home</a></li>
+                <li class="item"><a href="progetti">Progetti</a></li>
+                <li class="item"><a href="contatti">Contatti</a></li>
+            </ul>
+        </nav>
 
     </header>
 
@@ -67,7 +71,8 @@
 
                 <p class="skills">Ciao, sono Stefania! Le mie skills contribuiscono a rendermi una persona creativa e
                     organizzata. La mia determinazione e ambizione mi spingono costantemente verso soluzioni coerenti ed
-                    esaustive, oltre ad affinare le mie capacità nel problem solving. <br> La chiarezza della mia visione si
+                    esaustive, oltre ad affinare le mie capacità nel problem solving. <br> La chiarezza della mia
+                    visione si
                     combina con una grande attenzione per i dettagli, permettendomi di essere una persona affidabile e
                     di
                     fiducia.</p>
@@ -188,78 +193,100 @@
 
         <div class="formazione">
 
-          <div class="testo">
-          
-           <img src="../assets/images/Parentesi_.svg" alt="grafico_decorativo" class="grafico">
-           <p class="skills">Grazie al percorso di studio di Start2impact, ho ricevuto un'ottima formazione non solo nell'ambito dell'UX e UI design, ma anche nella conoscenza di figure lavorative trasversali. Questo mi ha preparato ad affrontare situazioni lavorative in cui collaborerò con persone provenienti da diverse aree professionali. Inoltre, grazie all'approccio pratico e al supporto dei tutor del percorso di studio, ho avuto la possibilità di mettere in pratica le competenze acquisite lavorando su progetti reali. Questo mi ha permesso di sviluppare le capacità necessarie per affrontare sfide concrete e risolvere problemi complessi..</p>
-            
+            <div class="testo">
+
+                <img src="../assets/images/Parentesi_.svg" alt="grafico_decorativo" class="grafico">
+                <p class="skills">Grazie al percorso di studio di Start2impact, ho ricevuto un'ottima formazione non
+                    solo nell'ambito dell'UX e UI design, ma anche nella conoscenza di figure lavorative trasversali.
+                    Questo mi ha preparato ad affrontare situazioni lavorative in cui collaborerò con persone
+                    provenienti da diverse aree professionali. Inoltre, grazie all'approccio pratico e al supporto dei
+                    tutor del percorso di studio, ho avuto la possibilità di mettere in pratica le competenze acquisite
+                    lavorando su progetti reali. Questo mi ha permesso di sviluppare le capacità necessarie per
+                    affrontare sfide concrete e risolvere problemi complessi..</p>
+
+            </div>
+
+            <div class="slider-wrapper">
+                <button class="slide-arrow" id="slide-arrow-prev">
+                    &#8249;
+                </button>
+                <button class="slide-arrow" id="slide-arrow-next">
+                    &#8250;
+                </button>
+
+                <div class="slides-container" id="slides-container">
+
+                    <div class="slide">
+                        <img src="../assets/images/HTML_e_CSS_Certificato.webp" alt="certificati" height="418px"
+                            width="330px">
+                    </div>
+                    <div class="slide">
+                        <img src="../assets/images/Wireframing_Certificato.webp" alt="certificati" height="418px"
+                            width="330px">
+                    </div>
+                    <div class="slide">
+                        <img src="../assets/images/Discovery_Certificato.webp" alt="certificati" height="418px"
+                            width="330px">
+                    </div>
+                    <div class="slide">
+                        <img src="../assets/images/grafica.webp" alt="certificati" height="418px" width="330px">
+                    </div>
+                    <div class="slide">
+                        <img src="../assets/images/User_Interface_Certificato.webp" alt="certificati" height="418px"
+                            width="330px">
+                    </div>
+                    <div class="slide">
+                        <img src="../assets/images/Desgn_e_Sviluppo_Certificato.webp" alt="certificati" height="418px"
+                            width="330px">
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
         </div>
-
-        <div  class="slider-wrapper">
-            <button class="slide-arrow" id="slide-arrow-prev">
-                &#8249;
-            </button>
-              <button class="slide-arrow" id="slide-arrow-next">
-                &#8250;
-            </button> 
-            
-            <div class="slides-container" id="slides-container">
-
-                <div class="slide"> 
-                    <img src="../assets/images/HTML_e_CSS_Certificato.webp" alt="certificati" height="418px" width="330px">
-                </div>
-                <div class="slide">
-                    <img src="../assets/images/Wireframing_Certificato.webp" alt="certificati" height="418px" width="330px">
-                </div>
-                <div class="slide">
-                    <img src="../assets/images/Discovery_Certificato.webp" alt="certificati" height="418px" width="330px">
-                </div>
-                <div class="slide">
-                    <img src="../assets/images/grafica.webp" alt="certificati" height="418px" width="330px">
-                </div>
-                <div class="slide">
-                    <img src="../assets/images/User_Interface_Certificato.webp" alt="certificati" height="418px" width="330px">
-                </div>
-                <div class="slide">
-                    <img src="../assets/images/Desgn_e_Sviluppo_Certificato.webp" alt="certificati" height="418px" width="330px">
-                </div>
-              </div>
-              
-        </div> 
-
-
-
-
-        </div> 
 
         <h2 class="title">Contatti</h2>
 
         <div>
-            <form action="pagina-di-destinazione.php" method="post" class="textform form" >
+            <form action="pagina-di-destinazione.php" method="post" class="textform form">
 
                 <div class="form-group-1">
-                 <label for="nome">Nome e Cognome</label>
-                 <input type="text" id="nome" name="nome"><br>
+                    <label for="nome">Nome e Cognome</label>
+                    <input type="text" id="nome" name="nome"><br>
                 </div>
 
                 <div class="form-group-2">
-                  <label for="email">Email:</label>
-                  <input type="email" id="email" name="email"><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email"><br>
                 </div>
 
                 <div class="form-group-3">
-                 <label for="messaggio">Messaggio</label>
-                 <textarea rows="10" cols="50" name="messaggio"></textarea>
+                    <label for="messaggio">Messaggio</label>
+                    <textarea rows="10" cols="50" name="messaggio"></textarea>
                 </div>
 
                 <button class="btn">Invia</button>
 
             </form>
         </div>
-        
+
     </div>
 
     <footer>
+        <ul class="social">
+            <li>
+                <a href="./index.html" class="logo logo-footer">Stefania Pirrone</a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/stefania-pirrone-622945231/" class="fa fa-linkedin"></a>
+            </li>
+            <li>
+                <a href="https://github.com/stefataku" class="fa fa-github"></a>
+            </li>
+        </ul>
 
     </footer>
 </body>

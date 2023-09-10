@@ -1,0 +1,46 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+footer {
+    background-color: black;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo-footer {
+    margin-left: 0;
+}
+
+.fa-linkedin {
+    padding: 10px 14px;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    background-color: #000000;
+    color: #FFF;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.social {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    width: 100%;
+    justify-content: center;
+}
+
+.fa-github {
+    padding: 10px 14px;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    background-color: #000000;
+    color: #FFF;
+    text-decoration: none;
+    font-size: 2rem;
+}

@@ -1,14 +1,14 @@
 h1 {
     font-family: 'Quicksand-Light', sans-serif;
     font-size: 86px;
-    color:#101010;
+    color: #101010;
     font-weight: 400;
 }
 
 h2 {
     color: #101010;
     font-size: 54px;
-    font-family:'Quicksand-Light', sans-serif ;
+    font-family: 'Quicksand-Light', sans-serif;
     font-weight: 300;
     margin-left: 30px;
 }
@@ -17,7 +17,7 @@ button {
     font-size: 20px;
     font-family: 'Helvetica-Bold';
     border-radius: 8px;
-    background-color: #C37935 ;
+    background-color: #C37935;
     width: 400px;
     height: 60px;
     border: none;
@@ -29,17 +29,26 @@ button:focus {
     box-shadow: 0px 10px 14px -7px #838383;
 }
 
-input, textarea {
+input,
+textarea {
     border-radius: 8px;
     border: 1px solid #C37935;
     background: #FFF;
     box-shadow: 2px 4px 7px 2px rgba(0, 0, 0, 0.10) inset;
     height: 52px;
     width: 100%;
-    font-size:24px;
+    font-size: 24px;
     padding-left: 1rem;
 
-    resize:none;
+    resize: none;
+}
+
+a {
+    color: #101010;
+}
+
+ul {
+    list-style: none;
 }
 
 textarea {
@@ -47,6 +56,10 @@ textarea {
     height: auto;
 }
 
-footer {
-    background-color: black;
+.logo {
+    text-decoration: none;
+    color: #EDEDED;
+    font-family: 'Quicksand-Light', sans-serif;
+    font-size: 40px;
+    margin-left: 40px;
 }
