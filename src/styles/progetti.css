@@ -37,7 +37,13 @@ body{
     width: 100%;
 }
 
+.link_pdf {
+    text-decoration: none;
+
+}
+
 .riga {
 display: flex;
 flex-direction: row;
+justify-content: center;
 }
