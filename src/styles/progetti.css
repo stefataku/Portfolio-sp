@@ -1,0 +1,43 @@
+@import './styles/font.css';
+
+body{
+    margin: 0px;
+    box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.243);
+    background-image:url('../../assets/images/background.webp');
+    background-size:auto; 
+}
+
+
+.card {
+    width: 400px;
+    height:auto;
+    background-color: #ffffff59;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.465);
+}
+
+.textcard {
+    color: #101010;
+    font-family: 'Quicksand-Regular';
+    font-size: 28px;
+    margin: 4%;
+    
+}
+
+.copertina {
+    height: 100%;
+    width: 100%;
+}
+
+.riga {
+display: flex;
+flex-direction: row;
+}
