@@ -4,7 +4,7 @@ body{
     margin: 0px;
     box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.243);
     background-image:url('../../assets/images/background.webp');
-    background-size:cover; 
+    background-size:auto; 
 }
 
 
