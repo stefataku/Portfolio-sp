@@ -58,3 +58,9 @@ justify-content: center;
     line-height: 39px;
 }
 
+.list-skills>li::marker {
+    content: "\2713";
+    color: #C37935;
+    font-size: 1.2em;
+    font-weight: bold;
+}
