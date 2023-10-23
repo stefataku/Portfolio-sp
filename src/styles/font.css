@@ -35,24 +35,24 @@
 
 @font-face {
   font-family: 'Helvetica';
-  src: url('../../src/assets/fonts/helvetica/Helvetica.ttf')  format('truetype');
+  src: url('../assets/fonts/helvetica/Helvetica.ttf')  format('truetype');
 
 }
 
 @font-face {
   font-family: 'Helvetica-Bold';
-  src: url('../../src/assets/fonts/helvetica/Helvetica-Bold.ttf')  format('truetype');
+  src: url('../assets/fonts/helvetica/Helvetica-Bold.ttf')  format('truetype');
 
 }
 
 @font-face {
   font-family: 'Helvetica-Light';
-  src: url('../../src/assets/fonts/helvetica/Helvetica-light.ttf')  format('truetype');
+  src: url('../assets/fonts/helvetica/Helvetica-light.ttf')  format('truetype');
 
 }
 
 @font-face {
   font-family: 'Helvetica-Oblique';
-  src: url('../../src/assets/fonts/helvetica/Helvetica-Oblique.ttf')  format('truetype');
+  src: url('../assets/fonts/helvetica/Helvetica-Oblique.ttf')  format('truetype');
 
 }
