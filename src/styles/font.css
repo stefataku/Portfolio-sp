@@ -2,32 +2,32 @@
 
 @font-face {
     font-family: 'Quicksand-Bold';
-    src: url('../../assets/fonts/quicksand/Quicksand-Bold.ttf')  format('truetype');      
+    src: url('../../src/assets/fonts/quicksand/Quicksand-Bold.ttf')  format('truetype');      
 
 }
 
 @font-face {
     font-family: 'Quicksand-Light';
-    src: url('../../assets/fonts/quicksand/Quicksand-Light.ttf')  format('truetype');
+    src: url('../../src/assets/fonts/quicksand/Quicksand-Light.ttf')  format('truetype');
 
 }
 
 @font-face {
     font-family: 'Quicksand-Medium';
-    src: url('../../assets/fonts/quicksand/Quicksand-Medium.ttf')  format('truetype');
+    src: url('../../src/assets/fonts/quicksand/Quicksand-Medium.ttf')  format('truetype');
 
 }
 
 @font-face {
     font-family: 'Quicksand-Regular';
-    src: url('../../assets/fonts/quicksand/Quicksand-Regular.ttf')  format('truetype');
+    src: url('../../src/assets/fonts/quicksand/Quicksand-Regular.ttf')  format('truetype');
     
 
 }
 
 @font-face {
     font-family: 'Quicksand-SemiBold';
-    src: url('../../assets/fonts/quicksand/Quicksand-SemiBold.ttf')  format('truetype');
+    src: url('../../src/assets/fonts/quicksand/Quicksand-SemiBold.ttf')  format('truetype');
 
 }
 
@@ -35,24 +35,24 @@
 
 @font-face {
   font-family: 'Helvetica';
-  src: url('../../assets/fonts/helvetica/Helvetica.ttf')  format('truetype');
+  src: url('../../src/assets/fonts/helvetica/Helvetica.ttf')  format('truetype');
 
 }
 
 @font-face {
   font-family: 'Helvetica-Bold';
-  src: url('../../assets/fonts/helvetica/Helvetica-Bold.ttf')  format('truetype');
+  src: url('../../src/assets/fonts/helvetica/Helvetica-Bold.ttf')  format('truetype');
 
 }
 
 @font-face {
   font-family: 'Helvetica-Light';
-  src: url('../../assets/fonts/helvetica/Helvetica-light.ttf')  format('truetype');
+  src: url('../../src/assets/fonts/helvetica/Helvetica-light.ttf')  format('truetype');
 
 }
 
 @font-face {
   font-family: 'Helvetica-Oblique';
-  src: url('../../assets/fonts/helvetica/Helvetica-Oblique.ttf')  format('truetype');
+  src: url('../../src/assets/fonts/helvetica/Helvetica-Oblique.ttf')  format('truetype');
 
 }
