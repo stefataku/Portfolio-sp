@@ -49,6 +49,12 @@ flex-wrap: wrap;
     line-height: 39px;
 }
 
+@media only screen and (max-width: 960px) {
+    .presentation-text {
+        line-height: 28px;
+    }  
+}
+
 .list-skills>li::marker {
     content: "\2713";
     color: #C37935;

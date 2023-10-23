@@ -10,11 +10,14 @@ body{
 
 .container{
     margin:0px 105px 0px 105px;
-
-    @media only screen and (max-width: 960px) {
-        margin:0px 28px 0px 28px;
-      }
 }
+
+
+@media only screen and (max-width: 960px) {
+    .container{
+    margin:0px 28px 0px 28px;
+    }
+  }
 
 .hero{
     display: flex;
