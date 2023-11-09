@@ -73,9 +73,8 @@ body {
 
 .containertext {
     display: flex;
-    margin: 108px 0 0 0;
     justify-content: start;
-    gap: 7rem;
+    gap: 10rem;
 }
 
 
