@@ -1,25 +1,26 @@
 @import './font.css';
 @import '../animations/animation.css';
-body{
+
+body {
     margin: 0px;
     box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.243);
-    background-image:url('../assets/images/background.webp');
-    background-size:auto; 
+    background-image: url('../assets/images/background.webp');
+    background-size: auto;
 }
 
 
-.container{
-    margin:0px 105px 0px 105px;
+.container {
+    margin: 0px 105px 0px 105px;
 }
 
 
 @media only screen and (max-width: 960px) {
-    .container{
-    margin:0px 28px 0px 28px;
+    .container {
+        margin: 0px 28px 0px 28px;
     }
-  }
+}
 
-.hero{
+.hero {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -29,10 +30,10 @@ body{
 
 
 .titolo {
-     margin: 104px 0 0 0;
+    margin: 104px 0 0 0;
 }
 
-.herotext{
+.herotext {
     display: flex;
     flex-direction: column;
     width: 470px;
@@ -55,11 +56,10 @@ body{
 }
 
 .link-skill-soft {
-   
+
     font-family: 'Quicksand-Regular';
     font-size: 24px;
     text-decoration: none
-    
 }
 
 .buttontext2 {
@@ -71,7 +71,7 @@ body{
     text-decoration: none
 }
 
-.containertext {  
+.containertext {
     display: flex;
     margin: 108px 0 132px 0;
     justify-content: space-evenly;
@@ -80,15 +80,13 @@ body{
 }
 
 .skills {
-    margin: 18px;
-    width: 510px;
     color: #101010;
-font-family: 'Helvetica';
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: 39px; 
-}   
+    font-family: 'Helvetica';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 39px;
+}
 
 
 .cv {
@@ -139,17 +137,17 @@ line-height: 39px;
 }
 
 .elem {
-    margin:auto;
+    margin: auto;
     display: flex;
     justify-content: center;
-    
+
 }
 
 .curriculum {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    
+
 }
 
 .h4 {
@@ -158,23 +156,43 @@ line-height: 39px;
     font-size: 28px;
 }
 
-.ux {
+.uxui-skills {
+    display: flex;
+    padding: 58px 0px 0px 46px;
+    flex-wrap: wrap;
+}
+
+.uxui-skills-icon {
     display: flex;
     flex-direction: column;
-    align-items: center;
-   
+}
+
+.uxui {
+    display: flex;
+    align-items: start;
+    padding-bottom: 70px;
+}
+
+.section {
+    background-color: rgba(0, 60, 60, 0.17);
+    border-radius: 18px;
+}
+
+.title-section {
+    padding-top: 15px;
+    color: #000;
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .section-competence {
     display: flex;
-    flex-direction: row;
-    background-color: #dddddd;
-    width: auto;
-    height: 305px;
-    align-items: center;
-    flex-wrap: wrap;
     justify-content: space-around;
-    align-content: space-around;
+
 }
 
 .hard_skills {
@@ -194,23 +212,15 @@ line-height: 39px;
     margin-bottom: 6px;
 }
 
-
-.list-skills > li::marker {
-    content: "\2713";
-    color: #C37935;
-    font-size: 1.2em;
-    font-weight: bold;
-}
-
-li span {
-    position: relative;
-    left: 10px;
+.list-skills {
+    list-style: disc;
+    margin: 0px 0 0 24px;
 }
 
 .textform {
-        color: #000000;
-        font-family: 'Quicksand-Regular';
-        font-size: 20px;
+    color: #000000;
+    font-family: 'Quicksand-Regular';
+    font-size: 20px;
 }
 
 .form-group {
@@ -219,11 +229,11 @@ li span {
 }
 
 form {
-    display: grid; 
+    display: grid;
     grid-gap: 28px;
     padding: 20px;
     justify-content: center;
-}   
+}
 
 .btn {
     width: 228px;
