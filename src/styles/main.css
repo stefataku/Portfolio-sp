@@ -7,19 +7,23 @@ h1 {
 
 h2 {
     color: #101010;
-    font-size: 54px;
-    font-family: 'Quicksand-Light', sans-serif;
-    font-weight: 300;
-    margin-left: 30px;
+    font-size: 40px;
+    font-family: 'Quicksand-Regular', sans-serif;
+    font-weight: 400;
 }
 
 h3 {
     color: #101010;
-    font-size: 54px;
-    font-family: 'Quicksand-Light', sans-serif;
-    font-weight: 300;
-    font-size: 32px;
+    font-size: 40px;
+    font-family: 'Quicksand-Regular', sans-serif;
+    font-weight: 400;
+}
 
+li, p {
+    color: #101010;
+    font-size: 22px;
+    font-family: 'Quicksand-Regular', sans-serif;
+    font-weight: 400;
 }
 
 button {
@@ -27,7 +31,7 @@ button {
     font-family: 'Helvetica-Bold';
     border-radius: 8px;
     background-color: #C37935;
-    width: 400px;
+    width: 251px;
     height: 60px;
     border: none;
     cursor: pointer;
