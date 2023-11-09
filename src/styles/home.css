@@ -75,7 +75,6 @@ body {
     display: flex;
     margin: 108px 0 132px 0;
     justify-content: space-evenly;
-    flex-wrap: wrap;
     gap: 2rem;
 }
 
