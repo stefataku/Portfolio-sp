@@ -150,7 +150,7 @@ body {
 
 .uxui-skills {
     display: flex;
-    padding: 58px 0px 0px 46px;
+    padding: 0px 0px 0px 46px;
     flex-wrap: wrap;
 }
 
@@ -162,7 +162,7 @@ body {
 .uxui {
     display: flex;
     align-items: start;
-    padding-bottom: 70px;
+    padding-bottom: 82px;
 }
 
 .section {
@@ -202,6 +202,7 @@ body {
 .descrizione-formazione {
     width: 560px;
     height: 100%;
+    margin: 0;
 }
 
 .title {
