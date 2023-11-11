@@ -1,15 +1,12 @@
 @import './font.css';
 
 .card {
-    width: 316px;
+    width: 100%;
     height:auto;
-    background-color: #ffffff59;
-    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 2rem;
 }
 
 .card:hover {
@@ -19,7 +16,8 @@
 .textcard {
     color: #101010;
     font-family: 'Quicksand-Regular';
-    font-size: 20px;
+    font-size: 16px;
+    line-height: 26px;
     
 }
 
@@ -55,9 +53,23 @@ flex-wrap: wrap;
     }  
 }
 
-.list-skills>li::marker {
-    content: "\2713";
-    color: #C37935;
-    font-size: 1.2em;
-    font-weight: bold;
+.progetto {
+    display: grid;
+    grid-template-columns: repeat(2, 24rem);
+    justify-content: center;
+    grid-column-gap: 8rem;
+
+    @media only screen and (max-width: 960px) {
+        grid-template-columns: repeat(1, 24rem);
+    }
+}
+
+.list-layout {
+    display: flex;
+    margin: 0;
+}
+
+.list {
+    list-style-type: disc;
+    padding-inline-start: 26px;
 }

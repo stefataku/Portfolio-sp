@@ -14,7 +14,7 @@ h2 {
 
 h3 {
     color: #101010;
-    font-size: 40px;
+    font-size: 26px;
     font-family: 'Quicksand-Regular', sans-serif;
     font-weight: 400;
 }
@@ -90,3 +90,7 @@ textarea {
     text-align: center;
 }
 
+.list-skills {
+    list-style: disc;
+    margin: 0px 0 0 24px;
+}
