@@ -22,8 +22,8 @@
 }
 
 .copertina {
-    height: 100%;
-    width: 100%;
+    max-width: 100%;
+    height: auto;
 }
 
 .link_pdf {
@@ -45,22 +45,29 @@ flex-wrap: wrap;
     font-style: normal;
     font-weight: 400;
     line-height: 39px;
+
+    @media only screen and (max-width: 960px) {
+            line-height: 28px;
+    }
 }
 
-@media only screen and (max-width: 960px) {
-    .presentation-text {
-        line-height: 28px;
-    }  
-}
 
 .progetto {
     display: grid;
     grid-template-columns: repeat(2, 24rem);
     justify-content: center;
     grid-column-gap: 8rem;
+}
 
-    @media only screen and (max-width: 960px) {
-        grid-template-columns: repeat(1, 24rem);
+@media only screen and (max-width: 1100px) {
+    .progetto {
+        grid-template-columns: repeat(1, 22rem);
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .progetto {
+        grid-template-columns: repeat(1, 16rem);
     }
 }
 

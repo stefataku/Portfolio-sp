@@ -79,6 +79,14 @@ textarea {
     margin-left: 40px;
 }
 
+
+
+@media only screen and (max-width: 600px) {
+    .logo {
+        font-size: 26px;
+        margin-left: 26px;    }
+}
+
 .section {
     background-color: rgba(0, 60, 60, 0.17);
     border-radius: 18px;
