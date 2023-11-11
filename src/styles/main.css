@@ -78,3 +78,15 @@ textarea {
     font-size: 40px;
     margin-left: 40px;
 }
+
+.section {
+    background-color: rgba(0, 60, 60, 0.17);
+    border-radius: 18px;
+}
+
+.title-section {
+    padding-top: 15px;
+    color: #000;
+    text-align: center;
+}
+

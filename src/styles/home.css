@@ -165,17 +165,6 @@ body {
     padding-bottom: 82px;
 }
 
-.section {
-    background-color: rgba(0, 60, 60, 0.17);
-    border-radius: 18px;
-}
-
-.title-section {
-    padding-top: 15px;
-    color: #000;
-    text-align: center;
-}
-
 .section-competence {
     display: flex;
     justify-content: space-around;
