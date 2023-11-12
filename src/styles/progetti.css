@@ -13,14 +13,6 @@
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.465);
 }
 
-.textcard {
-    color: #101010;
-    font-family: 'Quicksand-Regular';
-    font-size: 16px;
-    line-height: 26px;
-    
-}
-
 .copertina {
     max-width: 100%;
     height: auto;
@@ -78,6 +70,16 @@ flex-wrap: wrap;
 }
 
 .list {
+    display: block;
     list-style-type: disc;
     padding-inline-start: 26px;
+}
+
+.textcard {
+    color: #101010;
+    font-family: 'Quicksand-Regular';
+    font-size: 16px;
+    line-height: 26px;
+    list-style: disc;
+    
 }
