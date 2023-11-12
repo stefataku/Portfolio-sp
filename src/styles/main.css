@@ -101,7 +101,6 @@ ul {
   ul li a {
     position: relative;
     display: block;
-    text-transform: uppercase;
     margin: 20px 0;
     padding: 10px 20px;
     text-decoration: none;
