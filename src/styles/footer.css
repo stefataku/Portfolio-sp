@@ -7,6 +7,22 @@ footer {
     justify-content: center;
 }
 
+.logo-footer {
+    text-decoration: none;
+    color: #EDEDED;
+    font-family: 'Quicksand-Light', sans-serif;
+    font-size: 26px;
+}
+
+@media only screen and (max-width: 600px) {
+    .logo-footer {
+        text-decoration: none;
+        color: #EDEDED;
+        font-family: 'Quicksand-Light', sans-serif;
+        font-size: 26px;
+    }
+}
+
 
 .fa-linkedin {
     padding: 10px 14px;
