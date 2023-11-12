@@ -38,13 +38,15 @@ li, p {
 
 button {
     font-size: 20px;
-    font-family: 'Helvetica-Bold';
+    font-family: 'Quicksand-Regular';
     border-radius: 8px;
     background-color: #C37935;
     width: 251px;
     height: 60px;
     border: none;
     cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+
 
     @media only screen and (max-width: 1100px) {
         width: 187px;
@@ -55,7 +57,6 @@ button {
 button:hover,
 button:focus {
     box-shadow: 0px 10px 14px -7px #838383;
-    
 }
 
 input,
@@ -74,6 +75,12 @@ textarea {
 
 a {
     color: #101010;
+    -webkit-tap-highlight-color: transparent;
+
+}
+
+a:focus {
+    outline: 0;
 }
 
 ul {
@@ -104,10 +111,12 @@ textarea {
 .section {
     background-color: rgba(0, 60, 60, 0.17);
     border-radius: 18px;
+    padding: 20px;
+    margin-bottom: 20px;
 }
 
 .title-section {
-    padding-top: 15px;
+    
     color: #000;
     text-align: center;
 }
