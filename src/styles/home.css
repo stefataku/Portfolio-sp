@@ -149,7 +149,7 @@
     margin: auto;
     display: flex;
     justify-content: center;
-    padding-bottom: 39px;
+    padding: 32px;
 
 }
 
@@ -183,12 +183,21 @@
 .uxui-skills-icon {
     display: flex;
     flex-direction: column;
+
+    @media (max-width: 960px) {
+        flex-direction: row;
+    }
 }
 
 .uxui {
     display: flex;
     align-items: start;
     padding-bottom: 82px;
+
+    @media (max-width: 960px) {
+        padding: 32px;
+        flex-direction: row;
+    }
 }
 
 .section-competence {
@@ -197,8 +206,30 @@
     justify-items: center;
 }
 
+
+@media (max-width: 960px) {
+    .section-competence {
+        grid-template-columns: 1fr; 
+    }
+
+    .uxui-skills-icon,
+    .bullet-point-ux {
+        grid-column: span 2;
+    }
+
+    .bullet-point-ux {
+        width: 75%;
+    }
+}
+
+
 .main-section-competence {
     display: flex;
+
+    @media (max-width: 960px) {
+        justify-content: center;
+    }
+
 }
 
 .hard_skills {
