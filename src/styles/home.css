@@ -242,9 +242,8 @@
 }
 
 .sezione-formazione {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     padding: 0 42px 0px 42px;
 }
 
