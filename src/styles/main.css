@@ -100,7 +100,7 @@ ul {
     display: flex;
   }
   ul li {
-    list-style: none;
+    list-style: inherit;
   }
   ul li a {
     position: relative;
@@ -176,7 +176,7 @@ textarea {
     background-color: rgba(0, 60, 60, 0.17);
     border-radius: 18px;
     padding: 20px;
-    margin-bottom: 20px;
+    margin: 20px 0 0 0;
 }
 
 .title-section {
