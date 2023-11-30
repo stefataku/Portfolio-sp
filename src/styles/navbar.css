@@ -69,7 +69,9 @@ ul a:hover {
 
 #menu-toggle:checked ~ .list-items {
   @media only screen and (max-width: 960px) {
-    left: 70% !important;
+    left: auto;
+    right: 0; 
+    width: 70%; 
   }
 }
 
@@ -113,7 +115,7 @@ ul a:hover {
     flex-direction: column;
     position: fixed;
     top: 70px;
-    left: 100%;
+    right: -300px;
     width: 300px;
     height: 100%;
     margin: 0;
@@ -121,7 +123,7 @@ ul a:hover {
     list-style: none;
     background-color: black;
     transition-duration: .25s;
-    }
+  }
 }
 
 .menu-item {
