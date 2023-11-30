@@ -11,10 +11,6 @@
 
 @media only screen and (min-width: 1100px) {
 
-    /* .title-card {
-        display: block;
-    } */
-
     .overlay {
         position: absolute;
         top: 0;
@@ -33,7 +29,6 @@
     }
 
     .card:hover .overlay {
-        cursor: pointer;
         opacity: 1;
     }
 
@@ -45,13 +40,8 @@
 
 @media only screen and (min-width: 1100px) {
 
-    /* .card:hover .title-card {
-        visibility: hidden;
-
-    } */
-
     p {
-        padding: 20px;
+        padding: 0 20px 0 20px
     }
 }
 
@@ -183,4 +173,34 @@ h4 {
 
 .title-section {
     margin: 0 0 12px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #101010;
+    font-size: 22px;
+    font-family: 'Quicksand-Regular', sans-serif;
+    font-weight: 400;
+    line-height: 35px;
+
+    @media only screen and (max-width: 600px) {
+        font-size: 16px;
+        line-height: 26px;
+    }
+}
+
+.external-link {
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+span {
+    display: flex;
+    align-items: center;
+    justify-content: around;
 }
