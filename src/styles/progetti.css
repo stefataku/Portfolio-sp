@@ -79,7 +79,12 @@
 
 .progetto-single {
     display: flex;
-    gap: 3rem
+    gap: 3rem;
+
+    @media only screen and (max-width: 600px) {
+        gap: 0
+    }
+    
 }
 
 @media only screen and (max-width: 1100px) {
