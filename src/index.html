@@ -14,6 +14,14 @@
 
     <title>Home - Portfolio Stefania Pirrone</title>
 
+    <script>
+        function chiudiMenu() {
+            /*Questo mi consente di chiudere il menu hamburger 
+             quando sono nella home e clicco su 'Contatti' */
+        document.getElementById("menu-toggle").checked = false;
+    }
+    </script>
+
 </head>
 
 <body>
@@ -28,7 +36,7 @@
             <ul class="list-items">
                 <li class="item menu-item"><a href="./index.html">Home</a></li>
                 <li class="item menu-item"><a href="progetti.html">Progetti</a></li>
-                <li class="item menu-item"><a href="#contatti">Contatti</a></li>
+                <li class="item menu-item"><a href="#contatti" onclick="ricaricaPagina()">Contatti</a></li>
             </ul>
         </nav>
 
