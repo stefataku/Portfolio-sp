@@ -126,6 +126,13 @@
     margin-top: 40px;
 }
 
+.testo-intro {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 39rem;
+}
+
 .frecciadec {
     margin-left: 2%;
     margin-bottom: 11%;
