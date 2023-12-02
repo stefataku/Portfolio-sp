@@ -126,13 +126,6 @@
     margin-top: 40px;
 }
 
-.testo {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 39rem;
-}
-
 .frecciadec {
     margin-left: 2%;
     margin-bottom: 11%;
@@ -242,20 +235,30 @@
 }
 
 .sezione-formazione {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    padding: 0 42px 0px 42px;
+    display: flex;
+    flex-direction: column;
+    max-width: 85%;
+
 }
 
 .formazione {
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+
+    @media only screen and (max-width: 960px) {
+           flex-direction: column;
+    }
 }
 
 .descrizione-formazione {
-    width: 560px;
+    width: 70%;
     height: 100%;
     margin: 0;
+
+    @media only screen and (max-width: 960px) {
+        width: 100%;
+    }
 }
 
 .title {
