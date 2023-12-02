@@ -11,10 +11,6 @@
   }
 
 
-/*===================*/
-/* WOOBLE VERTICAL
-/*===================*/
-
 @-webkit-keyframes wobble-vertical-on-hover {
   16.65% {
     -webkit-transform: translateY(8px);
