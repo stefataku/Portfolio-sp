@@ -1,4 +1,5 @@
-*, html {
+*,
+html {
     scroll-behavior: smooth !important;
 }
 
@@ -37,13 +38,15 @@ h3 {
 }
 
 h4 {
-    
+
     color: #101010;
     font-size: 22px;
     font-family: 'Quicksand-Regular', sans-serif;
     font-weight: 400;
 }
-li, p {
+
+li,
+p {
     color: #101010;
     font-size: 22px;
     font-family: 'Quicksand-Regular', sans-serif;
@@ -105,11 +108,13 @@ a:focus {
 
 ul {
     display: flex;
-  }
-  ul li {
+}
+
+ul li {
     list-style: inherit;
-  }
-  ul li a {
+}
+
+ul li a {
     position: relative;
     display: block;
     margin: 20px 0;
@@ -119,8 +124,9 @@ ul {
     font-size: 18px;
     transition: 0.5s;
     z-index: 1;
-  }
-  ul li a:before {
+}
+
+ul li a:before {
     content: "";
     position: absolute;
     top: 0;
@@ -132,8 +138,9 @@ ul {
     transform: scaleY(2);
     opacity: 0;
     transition: 0.3s;
-  }
-  ul li a:after {
+}
+
+ul li a:after {
     content: "";
     position: absolute;
     top: 2px;
@@ -145,18 +152,21 @@ ul {
     opacity: 0;
     transition: 0.3s;
     z-index: -1;
-  }
-  ul li a:hover {
+}
+
+ul li a:hover {
     color: #000;
-  }
-  ul li a:hover:before {
+}
+
+ul li a:hover:before {
     transform: scaleY(1);
     opacity: 1;
-  }
-  ul li a:hover:after {
+}
+
+ul li a:hover:after {
     transform: scaleY(1);
     opacity: 1;
-  }
+}
 
 textarea {
     padding-top: 1rem;
@@ -176,19 +186,20 @@ textarea {
 @media only screen and (max-width: 600px) {
     .logo {
         font-size: 26px;
-        margin-left: 26px;    }
+        margin-left: 26px;
+    }
 }
 
 .section {
     background-color: rgba(0, 60, 60, 0.17);
     border-radius: 18px;
     padding: 20px;
-    margin: 20px 0 20px 0;  
-    width: -webkit-fill-available;  
+    margin: 20px 0 20px 0;
+    width: -webkit-fill-available;
 }
 
 .title-section {
-    
+
     color: #000;
     text-align: center;
 }
